@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import PropType from "prop-types";
-import { calculateStatememnt } from "../../utils/discountCalculation";
+import { calculateStatememnt } from "../../utils/helpers/discountCalculation";
 
 const CartStatement = ({ cartItems }) => {
   const { subTotal, discount, total } = calculateStatememnt(cartItems);
