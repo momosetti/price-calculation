@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import {
   milkDiscountCalculation,
   beardDiscountCalculation,
-} from "../../utils/discountCalculation";
+} from "../../utils/helpers/discountCalculation";
 const initialState = {
   cart: [],
 };
@@ -36,7 +36,7 @@ export const cartSlice = createSlice({
               item.quantity++;
               break;
             case "decrement":
-              if (item.quantity != 1) {
+              if (item.quantity !== 1) {
                 item.quantity--;
               }
               break;
