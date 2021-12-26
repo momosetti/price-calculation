@@ -38,8 +38,8 @@ After cloning the repo. Using your preferred package manager (I use `Yarn`).
 
 To install dependencies:
 
-    git clone https://github.com/momosetti/a-spaceship-to-another-dimension
-    cd a-spaceship-to-another-dimension
+    git clone https://github.com/momosetti/price-calculation
+    cd price-calculation
     yarn / npm install
 
 For starting the dev server:
@@ -78,7 +78,7 @@ For serving static files (after build the project):
 <dt><a href="#beardDiscountCalculation">beardDiscountCalculation</a> ⇒ <code>Object</code></dt>
 <dd><p>Calculate the related discount and total price depend on another item (in our case, the butter is the item) quantity.</p>  
 </dd>
-<dt><a href="#calculateStatememnt">calculateStatememnt</a> ⇒</dt>
+<dt><a href="#calculateStatememnt">calculateStatememnt</a> ⇒ <code>Object</code></dt>
 <dd><p>Calculate the statement on the basket.</p>
 </dd>
 </dl>
